@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour
         //점프
         if (Input.GetKeyDown(KeyCode.Space)&& this.rigid2D.linearVelocityY == 0)
         {
+            this.animator.SetTrigger("JumpTrigger");
             this.rigid2D.AddForce(transform.up * this.jumpForce);
-            this.animator.SetTrigger("jump");
 
         }
 
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         //플레이어 속도
         float speedx = Mathf.Abs(this.rigid2D.linearVelocity.x);
 
-        //속도 제한 및 이동
+        //속도제한
         if (speedx < this.maxWalkSpeed)
         {
             this.rigid2D.AddForce(transform.right * key * this.walkForce);
@@ -50,9 +50,18 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(key,1,1);
         }
 
-       //
-        this.animator.speed = speedx / 2.0f;
+        //플레이어의 속도에 맞춰서 애니메이션 속도 조절
+        if (this.rigid2D.linearVelocity.y == 0)
+        {
+            this.animator.speed = speedx / 2.0f;
+        }
+        else
+        {
+            this.animator.speed = 1.0f;
+        }
 
+
+        //플레이어가 화면 밖으로 나가면 처음부터
         if (transform.position.y < -10.0f)
         {
             SceneManager.LoadScene("SampleScene");
