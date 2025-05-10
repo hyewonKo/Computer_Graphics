@@ -7,3 +7,4 @@
 .vscode/
 *.csproj
 *.sln
+.vs/
