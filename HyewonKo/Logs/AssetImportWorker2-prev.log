@@ -15,7 +15,7 @@ C:/Users/ieoql/unity/HyewonKo
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-5031
+10201
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/ieoql/unity/HyewonKo
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25084]  Target information:
+Player connection [47888]  Target information:
 
-Player connection [25084]  * "[IP] 172.19.53.148 [Port] 0 [Flags] 2 [Guid] 964285115 [EditorId] 964285115 [Version] 1048832 [Id] WindowsEditor(7,GalaxyBook) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47888]  * "[IP] 192.168.219.106 [Port] 0 [Flags] 2 [Guid] 3015470403 [EditorId] 3015470403 [Version] 1048832 [Id] WindowsEditor(7,GalaxyBook) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25084] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25084] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47888] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
@@ -92,49 +92,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.726867 seconds.
-- Loaded All Assemblies, in  2.644 seconds
+Registered in 0.007179 seconds.
+- Loaded All Assemblies, in  0.671 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.464 seconds
-Domain Reload Profiling: 3108ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1269ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (114ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (804ms)
-	LoadAllAssembliesAndSetupDomain (1507ms)
-		LoadAssemblies (184ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1501ms)
-			TypeCache.Refresh (1498ms)
-				TypeCache.ScanAssembly (1480ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (261ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (465ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (409ms)
+		SetupLoadedEditorAssemblies (523ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (92ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			InitializePlatformSupportModulesInManaged (115ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,638 +143,110 @@ Domain Reload Profiling: 3108ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.101 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.504 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.033 seconds
-Domain Reload Profiling: 3131ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  1.944 seconds
+Domain Reload Profiling: 3440ms
+	BeginReloadAssembly (271ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (838ms)
-		LoadAssemblies (398ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1070ms)
+		LoadAssemblies (732ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (535ms)
-			TypeCache.Refresh (479ms)
-				TypeCache.ScanAssembly (454ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2033ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (337ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1944ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (983ms)
+		SetupLoadedEditorAssemblies (1614ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (654ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (277ms)
+			ProcessInitializeOnLoadAttributes (1070ms)
+			ProcessInitializeOnLoadMethodAttributes (200ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 201 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5972 unused Assets / (5.6 MB). Loaded Objects now: 6622.
-Memory consumption went from 162.5 MB to 156.8 MB.
-Total: 10.855200 ms (FindLiveObjects: 0.495200 ms CreateObjectMapping: 0.289100 ms MarkObjects: 5.864100 ms  DeleteObjects: 4.205200 ms)
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6871 unused Assets / (13.8 MB). Loaded Objects now: 7372.
+Memory consumption went from 264.0 MB to 250.2 MB.
+Total: 20.844400 ms (FindLiveObjects: 2.010400 ms CreateObjectMapping: 0.776300 ms MarkObjects: 8.489300 ms  DeleteObjects: 9.566100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1022400.725718 seconds.
-  path: Assets/Bugs set
-  artifactKey: Guid(a8b61b6929f7243b0be0ac3b65bd49ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set using Guid(a8b61b6929f7243b0be0ac3b65bd49ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8ed25affc37a3172d70d570dad31006') in 0.0129374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1669785.471305 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_D.prefab
+  artifactKey: Guid(c86b29ab1e58aa5419a66bc957a06550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_D.prefab using Guid(c86b29ab1e58aa5419a66bc957a06550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da8dd9182634c5efb939918e312f388a') in 0.4403509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Bugs set/1-Bug.png
-  artifactKey: Guid(355a8e9c29cd14d219472dff830c38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/1-Bug.png using Guid(355a8e9c29cd14d219472dff830c38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c12929c8e780a982cf0d20af575d92ca') in 0.2756912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Bugs set/15-Bug.png
-  artifactKey: Guid(14cb18e56e5e0459fab8cc90f13f2693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/15-Bug.png using Guid(14cb18e56e5e0459fab8cc90f13f2693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd99f0b4bccdab72f9f82bf757f09b86') in 0.0386038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Bugs set/23-Bug.png
-  artifactKey: Guid(2708f6deb1cad49c88a6237ff36c4cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/23-Bug.png using Guid(2708f6deb1cad49c88a6237ff36c4cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4624802531a0753655b3ff560b26b8') in 0.0454731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Bugs set/14-Bug.png
-  artifactKey: Guid(37150c59ab1f2481d874d2f9b4e402eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/14-Bug.png using Guid(37150c59ab1f2481d874d2f9b4e402eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe594265c30ffbd255b7864223979ba') in 0.0421424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Bugs set/19-Bug.png
-  artifactKey: Guid(675a11da0794245fe8a73c794b2a018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/19-Bug.png using Guid(675a11da0794245fe8a73c794b2a018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0994c7321b3069fd3117388009da17f9') in 0.0411647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Bugs set/11-Bug.png
-  artifactKey: Guid(f780f144a32734e69ad4e444ef3df5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/11-Bug.png using Guid(f780f144a32734e69ad4e444ef3df5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941ed54c3f3c300c9f99289c1dca07d6') in 0.0383709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.223647 seconds.
-  path: Assets/Bugs set/26-Bug.png
-  artifactKey: Guid(c2cac7c0c9e4a4c41b2cb3206b6d6f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/26-Bug.png using Guid(c2cac7c0c9e4a4c41b2cb3206b6d6f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9a0ae2447c54823553bf8db9bb6fae') in 0.0588814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bugs set/34-Bug.png
-  artifactKey: Guid(e1a2010688b0a4de2b0e78167ee5f6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/34-Bug.png using Guid(e1a2010688b0a4de2b0e78167ee5f6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba7943fd3d60f2ead037182108e494b') in 0.0441103 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Bugs set/43-Bug.png
-  artifactKey: Guid(1d050ba76df5f4dac9e2a6cc0b0bb90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/43-Bug.png using Guid(1d050ba76df5f4dac9e2a6cc0b0bb90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85bddce57f89a251a3ee6f8cc68077db') in 0.0398046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Bugs set/38-Bug.png
-  artifactKey: Guid(a9481b31b84ff4b04b10f193cc084a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bugs set/38-Bug.png using Guid(a9481b31b84ff4b04b10f193cc084a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52bc0958a85925e346fd9b52af7bc2b7') in 0.0331569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.776430 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0016338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.798790 seconds.
-  path: Assets/TutorialInfo/Icons
-  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1227d413ac442800839fd487a48b0b65') in 0.0009871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.976754 seconds.
-  path: Assets/fantasySpider
-  artifactKey: Guid(5622a4715a365c44b999d72fe27c8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider using Guid(5622a4715a365c44b999d72fe27c8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2ad8fc49c791c4b1b877e5ef7de8a44') in 0.0011643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032718 seconds.
-  path: Assets/fantasySpider/!LabelHolder.prefab
-  artifactKey: Guid(c04f439e9bf42ee4692e30a7568c7882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider/!LabelHolder.prefab using Guid(c04f439e9bf42ee4692e30a7568c7882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d7e453157296087c10a17c98f92f56e') in 0.002188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/fantasySpider/spider_01_black.tga
-  artifactKey: Guid(3e99ce4b6c6787f4882ae88159da78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider/spider_01_black.tga using Guid(3e99ce4b6c6787f4882ae88159da78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0298413223499aa7cded2646846492a') in 0.0342115 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.043632 seconds.
-  path: Assets/fantasySpider/Materials
-  artifactKey: Guid(e0085fcb424e3844c8a3ef071717cfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider/Materials using Guid(e0085fcb424e3844c8a3ef071717cfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3219f1dbd66ee11c185d1b256190ff1') in 0.0031138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/fantasySpider/Materials/ground.mat
-  artifactKey: Guid(6e71441919c84a84dae339781321521e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider/Materials/ground.mat using Guid(6e71441919c84a84dae339781321521e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '512cfc8b0bc5362e0812922c81c431bb') in 0.7379625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.649860 seconds.
-  path: Assets/fantasySpider/fantasySpiderSettings.lighting
-  artifactKey: Guid(610e79324a252d34c807bcf41f7ac04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fantasySpider/fantasySpiderSettings.lighting using Guid(610e79324a252d34c807bcf41f7ac04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '107b83a5e5f8effc6bdd7e10f32de2c4') in 0.0035357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 16.225 seconds
-Refreshing native plugins compatible for Editor in 11.40 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.940 seconds
-Domain Reload Profiling: 21183ms
-	BeginReloadAssembly (3312ms)
-		ExecutionOrderSort (2ms)
-		DisableScriptedObjects (318ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (3ms)
-		CreateAndSetChildDomain (720ms)
-	RebuildCommonClasses (702ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (12076ms)
-		LoadAssemblies (12786ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1191ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (991ms)
-			ResolveRequiredComponents (57ms)
-	FinalizeReload (4943ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2871ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (617ms)
-			ProcessInitializeOnLoadAttributes (1900ms)
-			ProcessInitializeOnLoadMethodAttributes (256ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (53ms)
-Refreshing native plugins compatible for Editor in 7.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5970 unused Assets / (5.1 MB). Loaded Objects now: 6707.
-Memory consumption went from 160.1 MB to 155.1 MB.
-Total: 27.802000 ms (FindLiveObjects: 1.924000 ms CreateObjectMapping: 0.879200 ms MarkObjects: 16.467200 ms  DeleteObjects: 8.524700 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-========================================================================
-Received Import Request.
-  Time since last request: 6037.023606 seconds.
-  path: Assets/TutorialInfo/Scripts
-  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f7b6d5fe4d6ec12174dd17021b0f3b') in 0.0142224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.699144 seconds.
-  path: Assets/Stylized_Astronaut/Stylized Astronaut.prefab
-  artifactKey: Guid(4be7a99d429a19840a38df28f88a8680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Stylized Astronaut.prefab using Guid(4be7a99d429a19840a38df28f88a8680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c259a9bfd994cbf9e777622604fb94') in 2.6243882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.399405 seconds.
-  path: Assets/Stylized_Astronaut/Character
-  artifactKey: Guid(7ef8070b5749b934297e8f5067719afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Character using Guid(7ef8070b5749b934297e8f5067719afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f1ec2f615f5085f9b72d626ad4f669c') in 0.0057072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Stylized_Astronaut/Character/Astronaut.fbx
-  artifactKey: Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Character/Astronaut.fbx using Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d11ff5de6f668b2f4ad9b30649d47e2') in 0.208221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.358737 seconds.
-  path: Assets/Stylized_Astronaut/Character/Materials
-  artifactKey: Guid(a2d2790b1403bb3458bc24af95485a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Character/Materials using Guid(a2d2790b1403bb3458bc24af95485a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a964d6e54e6326d3668022f4cccc2dd') in 0.0015831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007426 seconds.
-  path: Assets/Stylized_Astronaut/Character/Materials/Grey_Mat.mat
-  artifactKey: Guid(bd5105e1f39844b4daded70961d0174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Character/Materials/Grey_Mat.mat using Guid(bd5105e1f39844b4daded70961d0174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bed74a2381ded7cb32120b8d2c449d34') in 0.0656266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Stylized_Astronaut/Character/Materials/Yellow_Mat.mat
-  artifactKey: Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Character/Materials/Yellow_Mat.mat using Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '334ce37f6da39d6581383fba75f9e3ed') in 0.0189039 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.898185 seconds.
-  path: Assets/Stylized_Astronaut/Demo
-  artifactKey: Guid(99fed1068c777ac41a55320de49721a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Demo using Guid(99fed1068c777ac41a55320de49721a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dda4ddffcceb6f791f4415bfc972fd4') in 0.0011342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.688070 seconds.
-  path: Assets/Stylized_Astronaut/Demo/Materials
-  artifactKey: Guid(10952b58739ca28458106805f3caecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Demo/Materials using Guid(10952b58739ca28458106805f3caecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb537f78d71dc408c0fa962f9730bcf8') in 0.0008367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049995 seconds.
-  path: Assets/Stylized_Astronaut/Demo/Materials/Checker_Mat.mat
-  artifactKey: Guid(1a9b0b77314a0e542801c540c9a5e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Astronaut/Demo/Materials/Checker_Mat.mat using Guid(1a9b0b77314a0e542801c540c9a5e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2218e266836db6d3a8bbe0d368d74ea9') in 0.0166031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.136749 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25a63749be9e28b67bfd4210a1a42c1e') in 1.5172601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/fantasySpider/fantasySpider.unity
-  artifactKey: Guid(f5a049f8bc096fe449ae6fa231a59104) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/fantasySpider/fantasySpider.unity using Guid(f5a049f8bc096fe449ae6fa231a59104) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df5296cabf8a4797ea1b19753bfe84e0') in 0.1266809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 2.582136 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Door_A.fbx
+  artifactKey: Guid(7d826f29a6f86bc42b3d6a3a8babc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Door_A.fbx using Guid(7d826f29a6f86bc42b3d6a3a8babc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85537cc0c8ba55841127ba6ae754b548') in 0.1010315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000056 seconds.
-  path: Assets/Spider Infestation/Models/spider_egg.fbx
-  artifactKey: Guid(77e8313db93b01d4b9ccc10c21e1a6ed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Models/spider_egg.fbx using Guid(77e8313db93b01d4b9ccc10c21e1a6ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a03855752093e81bf12aea23c61b13a') in 0.9337756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A.fbx
+  artifactKey: Guid(ffe6eb1e4bae4c940be1841bfb095721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A.fbx using Guid(ffe6eb1e4bae4c940be1841bfb095721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee2a0a9eed35fdc22fdb0b645be1a7a') in 0.0442722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_03.tga
-  artifactKey: Guid(dbc2bb0d8ea58a24b901d7e79ccd7f58) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_03.tga using Guid(dbc2bb0d8ea58a24b901d7e79ccd7f58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dc91fa592470e7ebe5f4fdcc69459fc') in 0.1764721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.343510 seconds.
+  path: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch2.prefab
+  artifactKey: Guid(66173db9fd0bb3f4183154fc0776711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch2.prefab using Guid(66173db9fd0bb3f4183154fc0776711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4226d9740ed45b52964a27a6a736a67e') in 0.3456627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Stylized_Astronaut/Character/AstronautCharacterController.controller
-  artifactKey: Guid(9966b5485de603b49810d1e020f35606) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Character/AstronautCharacterController.controller using Guid(9966b5485de603b49810d1e020f35606) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1c13816df96a4b8897aca79d0967248') in 0.0581273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000035 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_Handrail_Cap_A.fbx
+  artifactKey: Guid(9d2fbeb234f30424fba739ae8008f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_Handrail_Cap_A.fbx using Guid(9d2fbeb234f30424fba739ae8008f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5960257d6b3a2064bddcf7ef5ff22ed2') in 0.0378382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_01.tga
-  artifactKey: Guid(fb569df6ce9379847a3a7486e168b513) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_01.tga using Guid(fb569df6ce9379847a3a7486e168b513) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c23e93f1593d722c84fa389308570b4') in 0.0823798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.427460 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Floor_End_A.prefab
+  artifactKey: Guid(7144982b2dbf65f4ab9f5f9ce98309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Floor_End_A.prefab using Guid(7144982b2dbf65f4ab9f5f9ce98309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bfefc9d6bfea5093be34d24440e6e84') in 0.1129365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_11.tga
-  artifactKey: Guid(1bef86077a6058940bf09c7f889f6391) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_11.tga using Guid(1bef86077a6058940bf09c7f889f6391) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4709aee7dbed16333134a063e4b7297f') in 0.0739387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/fantasySpider/fantasySpiderSettings.lighting
-  artifactKey: Guid(610e79324a252d34c807bcf41f7ac04f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/fantasySpider/fantasySpiderSettings.lighting using Guid(610e79324a252d34c807bcf41f7ac04f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e88fbad8e1cb5f7a71bb68ad4afc8f88') in 0.1325029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Stylized_Astronaut/Demo/DemoScene.unity
-  artifactKey: Guid(e2224b88424b4f0469748624439f318e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Demo/DemoScene.unity using Guid(e2224b88424b4f0469748624439f318e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97eb224321574ba219bde301c36ad28c') in 0.0469466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5349db68dc421aba82925d27490492d0') in 0.1025368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Spider Infestation/Shaders/Normal-BumpSpecRim.shader
-  artifactKey: Guid(20adb76082cb00b4e81dd196403b2274) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Shaders/Normal-BumpSpecRim.shader using Guid(20adb76082cb00b4e81dd196403b2274) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78300f1dc1b64a4525241cfff0409dd9') in 0.1051037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Stylized_Astronaut/Stylized Astronaut.prefab
-  artifactKey: Guid(4be7a99d429a19840a38df28f88a8680) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Stylized Astronaut.prefab using Guid(4be7a99d429a19840a38df28f88a8680) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '884ef5cc4aeba040d4e4f547eba51d84') in 0.1302792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_diffuse_09.tga
-  artifactKey: Guid(c1e9a6f4f6f23dc47bd966c1d735d82f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_diffuse_09.tga using Guid(c1e9a6f4f6f23dc47bd966c1d735d82f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e94691cc8d49e49ff1325d77222d9dba') in 0.101704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Stylized_Astronaut/Demo/DemoSceneSettings.lighting
-  artifactKey: Guid(c5192cf9d8bd62f4cb199db8548a2ebf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Demo/DemoSceneSettings.lighting using Guid(c5192cf9d8bd62f4cb199db8548a2ebf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a6327cb5b38a2bce76f64636ae0db89') in 0.0795059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a16f10931db9b2ef9173d6ee8cad78f') in 0.1211632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Spider Infestation/Prefabs/spider_egg_3x.prefab
-  artifactKey: Guid(4ae6dfadefaba84449e3dc5acc2bb7f5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Prefabs/spider_egg_3x.prefab using Guid(4ae6dfadefaba84449e3dc5acc2bb7f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '690c49f8ccfd1ea4cc14fc214ad206e3') in 0.5469409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_diffuse_05.tga
-  artifactKey: Guid(af704e5f46648654880a2e2e65359d49) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_diffuse_05.tga using Guid(af704e5f46648654880a2e2e65359d49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cabf1d069816bb826bb033538411e865') in 0.1149852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_09.tga
-  artifactKey: Guid(3f56ee0bcc8f4ce4a8cb08fc89257cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_09.tga using Guid(3f56ee0bcc8f4ce4a8cb08fc89257cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c4ea09d0dc5dd67e9374f351872d87e') in 0.1040333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_specular.tga
-  artifactKey: Guid(287cecd5660d41a47aa9c9c9ad76c1d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_specular.tga using Guid(287cecd5660d41a47aa9c9c9ad76c1d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fa954b3194482bee24b1c6c0db927e9') in 0.0799583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_specular.tga
-  artifactKey: Guid(da519d9e83b2642429d04709e854c8ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_specular.tga using Guid(da519d9e83b2642429d04709e854c8ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a473297645075b021cdc0e1dfe523c9') in 0.0674856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_10.tga
-  artifactKey: Guid(71edf8c207027294594a200a62f24be2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_10.tga using Guid(71edf8c207027294594a200a62f24be2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b344e30a6fca37f0a10837ea50dc4af') in 0.0614521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/fantasySpider/FSP_ContinuousRotation.cs
-  artifactKey: Guid(03812e9a75592ad45b98c4a5801a3074) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/fantasySpider/FSP_ContinuousRotation.cs using Guid(03812e9a75592ad45b98c4a5801a3074) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2f825948a06b8146976215454750820') in 0.0440387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_06.tga
-  artifactKey: Guid(6f13a38e15ee19842b995d24c6f992bc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_06.tga using Guid(6f13a38e15ee19842b995d24c6f992bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7863bb875a94bf22048fd4f8a10f3e9') in 0.0624286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Stylized_Astronaut/Character/Materials/Yellow_Mat.mat
-  artifactKey: Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Character/Materials/Yellow_Mat.mat using Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8ec4b465b59a78e74358a25e06890ea') in 0.0532356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dabb91acd2d0eaaa1995913a112abf02') in 0.2720498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c88b70a693d034289a5c1893f9edd10') in 0.154319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_04.tga
-  artifactKey: Guid(cd294e8260ba97f4ebc4743f923b9a7f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_04.tga using Guid(cd294e8260ba97f4ebc4743f923b9a7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2b8951026f7cb939a391265339a50c4') in 0.0892374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Stylized_Astronaut/Character/Materials/Grey_Mat.mat
-  artifactKey: Guid(bd5105e1f39844b4daded70961d0174f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Character/Materials/Grey_Mat.mat using Guid(bd5105e1f39844b4daded70961d0174f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5d6cafe94118c34b3b70680b1b025df') in 0.0638557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/fantasySpider/Materials/spider_01.mat
-  artifactKey: Guid(1035394dba39c5b41a002d49c4b0cb88) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/fantasySpider/Materials/spider_01.mat using Guid(1035394dba39c5b41a002d49c4b0cb88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5157c41fb3183b312f5aecdbad9a651c') in 0.3334822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_02.tga
-  artifactKey: Guid(385fef461875eeb4e98d8d6b817ea1a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_02.tga using Guid(385fef461875eeb4e98d8d6b817ea1a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23a0157a08ab10d063db43df4dd36e56') in 0.0679195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_08.tga
-  artifactKey: Guid(20e92d42ae70f224aa4ae3df34e78c72) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_egg_diffuse_08.tga using Guid(20e92d42ae70f224aa4ae3df34e78c72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b91097ebd29c3fdd6db90602bc4128aa') in 0.0659422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Spider Infestation/Prefabs/spider_egg_5x.prefab
-  artifactKey: Guid(d7ce1d6fea0828646aaf6443de8b5f00) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Prefabs/spider_egg_5x.prefab using Guid(d7ce1d6fea0828646aaf6443de8b5f00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f47d5c6ce49ecf02377b689ea764e126') in 0.097546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b12257257579cfd26cc2be8a2f378f89') in 0.1508721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88f9606c0ffa2a561f3eed6aa28366d7') in 0.0517842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_diffuse_02.tga
-  artifactKey: Guid(a30c9c5008d9b9a4e973dcb07e04c38c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_diffuse_02.tga using Guid(a30c9c5008d9b9a4e973dcb07e04c38c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be0981016defc90acfca448abbccaa85') in 0.083197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6e4d88fae8b2d0796a7413f6336319a') in 0.1110385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Stylized_Astronaut/Demo/Materials/Checker_Tex.png
-  artifactKey: Guid(38d2b9d9f4ace25459ab950a9859f920) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Stylized_Astronaut/Demo/Materials/Checker_Tex.png using Guid(38d2b9d9f4ace25459ab950a9859f920) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b348d69f42c2a3959b9eacc465fab92') in 0.0830288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Spider Infestation/Materials/Textures/spider_diffuse_06.tga
-  artifactKey: Guid(ee04c9eb42a0c4f43bf8df712010ff83) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Spider Infestation/Materials/Textures/spider_diffuse_06.tga using Guid(ee04c9eb42a0c4f43bf8df712010ff83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a89e4de5cc94ac4bfbf4963b47836e3') in 0.0559667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000099 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End1.fbx
+  artifactKey: Guid(c0922aa6a800c5e4394e696a91c302b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End1.fbx using Guid(c0922aa6a800c5e4394e696a91c302b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6328ae360c3f8d459bb309813358c65f') in 0.0506224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

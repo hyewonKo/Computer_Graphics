@@ -77,4 +77,15 @@ public class PlayerController : MonoBehaviour
         // 키보드 이동(move)과 중력/점프(velocity)를 합쳐서 Move를 '한 번만' 호출
         controller.Move((move * speed + velocity) * Time.deltaTime);
     }
+
+    // 스피드업 함수 (새로 추가)
+    public void ApplySpeedBoost(float amount)
+    {
+        speed += amount;
+        // PlayerHealth 스크립트를 찾아서 알림을 띄워달라고 요청
+        GetComponent<PlayerHealth>().ShowNotification("Speed +" + amount);
+    }
+
+    
+   
 }

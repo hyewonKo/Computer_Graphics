@@ -96,6 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464016}
   - component: {fileID: 20523980}
+  - component: {fileID: -1794790337307606820}
   m_Layer: 0
   m_Name: CobbleRock_F
   m_TagString: Untagged
@@ -148,6 +149,28 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2368484}
   m_Enabled: 1
+--- !u!64 &-1794790337307606820
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &131538
 GameObject:
   m_ObjectHideFlags: 0

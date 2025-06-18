@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16074 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/ieoql/unity/HyewonKo
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+5292
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ieoql/unity/HyewonKo
+C:/Users/ieoql/unity/HyewonKo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [57040]  Target information:
+
+Player connection [57040]  * "[IP] 192.168.157.208 [Port] 0 [Flags] 2 [Guid] 2706614546 [EditorId] 2706614546 [Version] 1048832 [Id] WindowsEditor(7,GalaxyBook) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [57040] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [57040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ieoql/unity/HyewonKo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     8037 MB
+    Driver:   31.0.101.4314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.010175 seconds.
+- Loaded All Assemblies, in  0.638 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 1208ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (102ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.282 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 2296ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (946ms)
+		LoadAssemblies (703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (299ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (851ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6872 unused Assets / (11.5 MB). Loaded Objects now: 7375.
+Memory consumption went from 269.0 MB to 257.5 MB.
+Total: 12.297800 ms (FindLiveObjects: 1.687700 ms CreateObjectMapping: 0.405700 ms MarkObjects: 5.654700 ms  DeleteObjects: 4.548300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1687039.920257 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/corePurepleDimond.png
+  artifactKey: Guid(30ad029585b995642bae85f8a2a2c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/corePurepleDimond.png using Guid(30ad029585b995642bae85f8a2a2c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab3bb059a9bc2020e2b99361af7c055c') in 0.2312336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/greenStar.png
+  artifactKey: Guid(28b39fc859926a74f899a9fb2115b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/greenStar.png using Guid(28b39fc859926a74f899a9fb2115b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48518c2c70230ed8beca042ba2e3aa15') in 0.0459782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/creamSquare.png
+  artifactKey: Guid(f37acec232a676d448efcfdced2ced79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/creamSquare.png using Guid(f37acec232a676d448efcfdced2ced79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0917bd8ff0986efdaa0c6e3c7d668c3e') in 0.0446244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568574 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonCreamDimond.png
+  artifactKey: Guid(f9da6fda7b122ad469fadba6e6f996f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonCreamDimond.png using Guid(f9da6fda7b122ad469fadba6e6f996f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584106c730d0f9f26880eef162b0df51') in 0.0364953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038001 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonPinkDimond.png
+  artifactKey: Guid(9e8f1c6857158a541946f696e2f3f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonPinkDimond.png using Guid(9e8f1c6857158a541946f696e2f3f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4bdb888f1a3b10065dcd7ea091faaa0') in 0.0367329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonPurepleDimond.png
+  artifactKey: Guid(642e3a0ceb5616f4b8dbb6f78e737cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/hexagonPurepleDimond.png using Guid(642e3a0ceb5616f4b8dbb6f78e737cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '482cf9d1eada4fd1847dc894fa95815c') in 0.0452176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097115 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/lightBlueDimond.png
+  artifactKey: Guid(e39febd05ac08a54e89646a92cbbdc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/lightBlueDimond.png using Guid(e39febd05ac08a54e89646a92cbbdc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2d3280fe0008cfc6e547eeb19ab7b89') in 0.0526527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/lightBlueStar.png
+  artifactKey: Guid(b589bf37f3998bf44af5a8ee6415c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/lightBlueStar.png using Guid(b589bf37f3998bf44af5a8ee6415c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45af7c824bfa676432a42d937bf3b71c') in 0.0612541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434222 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/orangePentagon.png
+  artifactKey: Guid(1dc7c31aa9cddae499858c3ddac1e1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/orangePentagon.png using Guid(1dc7c31aa9cddae499858c3ddac1e1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69d4489c87ebf9c3df19ef88060c3dd1') in 0.0803803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628661 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/pinkSquare.png
+  artifactKey: Guid(9564e04194c109d4a8340b047f9cd17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/pinkSquare.png using Guid(9564e04194c109d4a8340b047f9cd17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4faddf04962b4b3a82d9c7edc1eb7db') in 0.0985842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/purpleSquare.png
+  artifactKey: Guid(d8915b7a9f5c74043b83227650f3ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/purpleSquare.png using Guid(d8915b7a9f5c74043b83227650f3ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbd2f2c0e530556c5d30e4c2fc3c0c58') in 0.0457587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/red.png
+  artifactKey: Guid(e8f874713ba3ef243ad650ba6489c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/red.png using Guid(e8f874713ba3ef243ad650ba6489c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6d21a572ffc14b60c135d3b0867501') in 0.049068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.122938 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/redStone.png
+  artifactKey: Guid(5b3a1c4f2d2e1f846a6e76cd2c5aa23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/redStone.png using Guid(5b3a1c4f2d2e1f846a6e76cd2c5aa23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '117dd0cb33ac4dc18030895d7cb72530') in 0.1051785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/yellowStar.png
+  artifactKey: Guid(bb7ac735bc80d7c499b42db78434e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/yellowStar.png using Guid(bb7ac735bc80d7c499b42db78434e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4471ab4aad2906157438ca812d58c55e') in 0.0557423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Chess Studio/Puzzle Blocks Icon Pack/png/stone03.png
+  artifactKey: Guid(7c51fa8c40119844ca26740434a3f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess Studio/Puzzle Blocks Icon Pack/png/stone03.png using Guid(7c51fa8c40119844ca26740434a3f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd1248f9b1c88dbd199416c6ba3ef072') in 0.0582717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
