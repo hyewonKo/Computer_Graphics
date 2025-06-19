@@ -155,7 +155,7 @@ public class GameManager : MonoBehaviour
             ShowNotification("You have obtained the " + stoneType.ToString() + " stone!");
             StartCoroutine(PlaySoundAfterDelay(1f));
 
-            // ★★★ 5개 모두 모았는지 체크
+            // ★5개 모두 모았는지 체크
             if (collectedStones.Count >= 5)
             {
                 GameClear();
@@ -164,7 +164,7 @@ public class GameManager : MonoBehaviour
     }
 
     
-    // ★★★ 게임 클리어 처리 함수
+    // 게임 클리어 처리 함수
     private void GameClear()
     {
         isGameActive = false;
@@ -210,13 +210,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    // --- UI 버튼과 연결된 함수 ---
-
-    public void TryAgain()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 
    
 

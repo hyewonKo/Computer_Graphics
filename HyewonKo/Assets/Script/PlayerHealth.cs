@@ -15,6 +15,9 @@ public class PlayerHealth : MonoBehaviour
     public TextMeshProUGUI notificationText; // 아이템 획득 알림용 텍스트
     public float notificationDuration = 2f;  // 알림이 떠 있는 시간
 
+    [Header("사운드 설정")]
+    public AudioClip playerHurtSound;
+    public AudioSource audioSource;
     void Start()
     {
         currentHealth = maxHealth;
@@ -36,6 +39,9 @@ public class PlayerHealth : MonoBehaviour
     // 데미지를 입었을 때 호출
     public void TakeDamage(int amount)
     {
+
+
+
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
@@ -43,9 +49,25 @@ public class PlayerHealth : MonoBehaviour
             healthSlider.value = currentHealth;
 
         UpdateHealthText();
+        ShowNotification("Hp -" + amount);
 
+       
         if (currentHealth <= 0)
             Die();
+        audioSource.PlayOneShot(playerHurtSound);   
+
+
+        if (Camera.main != null)
+        {
+            CameraShake shake = Camera.main.GetComponent<CameraShake>();
+            if (shake != null)
+            {
+                // 0.15초 동안, 0.2 강도로 흔들기
+                StartCoroutine(shake.Shake(0.15f, 0.05f));
+            }
+        }
+
+
     }
 
     // HP 회복 시에도 이 메서드를 호출하면 됩니다.

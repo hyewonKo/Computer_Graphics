@@ -44,7 +44,6 @@ public class EnemyController : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
-        // 플레이어 오브젝트를 태그로 자동 검색하여 할당 (더 안정적)
         target = GameObject.FindGameObjectWithTag("Player").transform;
         ChooseNewWanderDestination();
         UpdateHpUI();
@@ -101,7 +100,7 @@ public class EnemyController : MonoBehaviour
         if (GameManager.Instance != null)
         {
             GameManager.Instance.CollectStone(holdingStone);
-            Debug.Log(holdingStone + " 스톤을 드랍했습니다!");
+            Debug.Log(holdingStone + " 스톤을 얻었습니다!");
         }
 
         // 4. 랜덤 아이템 드랍 (체력, 탄약 등)

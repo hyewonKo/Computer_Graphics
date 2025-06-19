@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     private float xRotation = 0f;
     public Transform cameraTransform;
 
+    [Header("사운드 설정")]
+    public AudioSource footstepAudioSource; // 발소리용 오디오 소스 (Loop 켜짐)
+    public AudioClip walkingSound;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -63,6 +67,8 @@ public class PlayerController : MonoBehaviour
         float v = Input.GetAxis("Vertical");
         Vector3 move = transform.right * h + transform.forward * v;
 
+        HandleFootsteps(move);
+
         // 점프
         if (Input.GetButtonDown("Jump") && jumpCount < maxJumps)
         {
@@ -76,6 +82,31 @@ public class PlayerController : MonoBehaviour
         // === 최종 이동 적용 (핵심!) ===
         // 키보드 이동(move)과 중력/점프(velocity)를 합쳐서 Move를 '한 번만' 호출
         controller.Move((move * speed + velocity) * Time.deltaTime);
+    }
+
+    void HandleFootsteps(Vector3 move)
+    {
+        // 오디오소스나 사운드클립이 연결 안됐으면 실행 안함
+        if (footstepAudioSource == null || walkingSound == null) return;
+
+        // 조건: 땅에 있고(isGrounded), 키보드 입력으로 움직이고 있을 때
+        if (controller.isGrounded && move.magnitude > 0)
+        {
+            // 그런데 발소리가 현재 재생 중이 아니라면
+            if (!footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.clip = walkingSound; // 재생할 클립을 지정하고
+                footstepAudioSource.Play();              // 재생 시작
+            }
+        }
+        else // 조건: 공중에 있거나, 멈춰있을 때
+        {
+            // 그런데 발소리가 현재 재생 중이라면
+            if (footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.Stop(); // 재생 중단
+            }
+        }
     }
 
     // 스피드업 함수 (새로 추가)
